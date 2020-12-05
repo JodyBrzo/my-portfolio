@@ -1,0 +1,12 @@
+/*.navbar-nav{
+    justify-content: flex-end; 
+}
+
+*/
+
+body{
+    background-image: url('../images/background-img.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+
+}
