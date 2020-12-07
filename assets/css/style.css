@@ -61,9 +61,17 @@ ol{
 
 /*-----start portfolio.html Page Styles-----*/
 .row-content-portfolio img{
-    width: 20em;
-    padding-bottom: 15px;
+       padding-bottom: 15px;
 
+}
+
+.row-content-portfolio section{
+    text-align: justify;
+    text-align-last: justify;
+}
+.col-main-portfolio{
+    max-width: 780px;
+    
 }
 
 @Media screen and (max-width: 480px){
@@ -75,5 +83,11 @@ ol{
         padding-left: 0px;
         padding-right: 0px;
     }
+    
+    .row-content-portfolio{
+        text-align: center;
+        
+ 
+ }
 
 }
