@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!--mets-->
+<!--meta-->
 
 <head>
   <meta charset="UTF-8">
@@ -28,8 +27,6 @@
       </div>
     </div>
   </nav>
-
-
   <!--Main Page Content Container woth 1 row of 2 columns and 1 row with 2 columns nested inside the first row column-->
   <main class="container-fluid mt-5">
     <div class="row row-main ml-xs-0 mr-xs-0 ml-1">
@@ -42,16 +39,18 @@
             </h1>
           </div>
         </div>
-        <article class="row row-content-portfolio">
-          <section class="col-md-12 text-justify">
-            <img class="" src="http://placehold.it/350x350" alt="">
-            <img class="" src="http://placehold.it/350x350" alt="">
-            <img class="" src="http://placehold.it/350x350" alt="">
-            <img class="" src="http://placehold.it/350x350" alt="">
-            <img class="" src="http://placehold.it/350x350" alt="">
-            <img class="" src="http://placehold.it/350x350" alt="">
-            <img class="" src="http://placehold.it/350x350" alt="">
-            <img class="" src="http://placehold.it/350x350" alt="">
+        <article class="row row-content-portfolio" aria-label="portfolio article">
+          <section class="col-md-12" aria-label="portfolio section">
+            <a href="https://jodybrzo.github.io/homework1/index.html" target="_blank">
+              <img src="./assets/images/horiseon.png" alt="Horiseon accessibility project">
+            </a>
+            <img src="http://placehold.it/350x350" alt="placeholder image">
+            <img src="http://placehold.it/350x350" alt="placeholder image">
+            <img src="http://placehold.it/350x350" alt="placeholder image">
+            <img src="http://placehold.it/350x350" alt="placeholder image">
+            <img src="http://placehold.it/350x350" alt="placeholder image">
+            <img src="http://placehold.it/350x350" alt="placeholder image">
+            <img src="http://placehold.it/350x350" alt="placeholder image">
           </section>
         </article>
       </div>
@@ -59,14 +58,13 @@
     </div>
     <!--empty div with a height of 100px so that the browser will scroll all of my content under the sticky footer-->
     <div class="content-scroll"></div>
-
-
-
   </main>
+  <!--Bonus: sticky footer uses bootstrap classes to alwyas be fixed at the bottom -->
   <footer class="col-md-12 footer-bottom fixed-bottom footer-height bg-light pt-2 pb-2 mt-5">
+    <!--div to hold social media image links-->
     <div class="text-center">
-      <a class="Header-link " href=" https://github.com/JodyBrzo" data-hotkey="g d" aria-label="github Jody Brzovski"
-        data-ga-click="Header, go to dashboard, icon:logo">
+      <a class="Header-link " href=" https://github.com/JodyBrzo" target="_blank" data-hotkey="g d"
+        aria-label="github Jody Brzovski" data-ga-click="Header, go to dashboard, icon:logo">
         <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32"
           aria-hidden="true">
           <path fill-rule="evenodd"
@@ -74,7 +72,8 @@
           </path>
         </svg>
       </a>
-      <a href="https://www.linkedin.com/in/jody-brzovski-177844b3"  aria-label="linkedin Jody Brzovski"  id="ember13" class="ember-view" >
+      <a href="https://www.linkedin.com/in/jody-brzovski-177844b3" target="_blank" aria-label="linkedin Jody Brzovski"
+        id="ember13" class="ember-view">
         <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" class="global-nav__logo">
           <path
             d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z"
@@ -82,24 +81,16 @@
           </path>
         </svg>
       </a>
-      <a href="https://www.linkedin.com/in/jody-brzovski-177844b3">
-      <img class="footer-indeed" src="./assets/images/indeed.png" alt="indeed.com Jody Brzovski">
-    </a>
+      <a href="https://my.indeed.com/p/e85lyhv" target="_blank">
+        <img class="footer-indeed" src="./assets/images/indeed.png" alt="indeed.com Jody Brzovski">
+      </a>
     </div>
-    <div class="text-center">
-      &copy Copyright 2020 - Jody Brzovski
-    </div>
-
-
+    <div class="text-center">&#169; Copyright 2020 - Jody Brzovski</div>
   </footer>
-
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>

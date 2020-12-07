@@ -1,58 +1,62 @@
+/*set background color for the enitre page*/
 body{
-/*    background-image: url('../images/background-img.jpg');
-    background-repeat: repeat;
-    background-size: cover;*/
     background-color: #909090;
-
 }
 
+/*set background color for the main section container*/
 .col-main{
     background-color: lightgray;
 }
 
-
-
+/*set h1 text color and add padding to the top and bottom of text to push the column border down a bit*/
 .index-h1{
     color: white;
     padding: 10px 0px;
 }
 
+/*div height to ensure all the content clears the sticky footer for scrolling*/
 .content-scroll{
     height: 100px;
 }
 
+/*makes the dark gray line above the footer*/
 .footer-height{
     
     border-top: 5px solid #5c5b5b;
 }
 
+/*sizing the indeed logo on the footer*/
 .footer-indeed{
     height: 30px;
 }
 
-
 /*-----start index.html Page Styles-----*/
+
+/*sizinig portfolio pic, floaring to the left so the text wraps on the left 
+and margin-right adds a little space between the image and the text*/
 .row-content img{
     width: 200px;
     float: left;
     margin-right: 15px;
 }
 
-
+/*padding-top pushes the text down and away from the line
+text-justify wraps the text around the image*/
 .row-content{
     padding-top: 10px;
-    text-align: justify; 
-
-    
+    text-align: justify;  
 }
+
+/*adds bullets to the line items at the bottom of the paragraph*/
 ol{
-    display: block;
+
     list-style-type: inherit;
 }
-
 /*-----end index.html Page Styles-----*/
 
 /*-----start contact.html Page Styles-----*/
+
+/*pushes the form doen a bit from the line*/
 .row-form-content{
     padding-top: 10px;
    
@@ -60,34 +64,46 @@ ol{
 /*-----end contact.html Page Styles-----*/
 
 /*-----start portfolio.html Page Styles-----*/
+
+/*adds space to the bottom of the images*/
 .row-content-portfolio img{
        padding-bottom: 15px;
 
 }
 
+/*linked image was showing a blue line behing the image on hover abd click
+this eliminated that*/
+.row-content-portfolio a{
+    text-decoration: none;
+}
+
+/*centeres the images when 2 up*/
 .row-content-portfolio section{
     text-align: justify;
     text-align-last: justify;
 }
+
+/*makes sure the section holding the images never grows to more than 3 images wide*/
 .col-main-portfolio{
-    max-width: 780px;
-    
+    max-width: 780px;   
 }
 
+/*media query for xs screen size */
 @Media screen and (max-width: 480px){
+    /*sets the margin to 0 to ensure contect takes up the whole screen*/
     .row-main{
         margin: 0  !important;
     }
     
+    /*sets the left and right padding to 0 to ensure contect takes up the whole screen*/
     .container-fluid{
         padding-left: 0px;
         padding-right: 0px;
     }
     
+    /*ensures the images are centered*/
     .row-content-portfolio{
         text-align: center;
-        
- 
  }
-
+ 
 }

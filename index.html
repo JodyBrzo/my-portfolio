@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!--mets-->
+<!--meta-->
 
 <head>
   <meta charset="UTF-8">
@@ -10,9 +9,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
-
-
-
 </head>
 
 <body>
@@ -31,11 +27,10 @@
       </div>
     </div>
   </nav>
-
-
   <!--Main Page Content Container woth 1 row of 2 columns and 1 row with 2 columns nested inside the first row column-->
   <main class="container-fluid mt-5">
     <div class="row row-main ml-1">
+      <!--col-md-8 makes the secion to hold the content-->
       <div class="col-md-8 col-main">
         <div class="row ">
           <div class="col-md-12">
@@ -45,26 +40,28 @@
             </h1>
           </div>
         </div>
-        <article class="row row-content">
-          <section class="col-md-12">
+        <!--photo and paragraph section-->
+        <article class="row row-content" aria-label="about me article">
+          <section class="col-md-12" aria-label="about me content">
             <img src="./assets/images/profile.jpg" alt="Jody Brzovski">
+            <!--bootstrap .text-justify so text wraps the image-->
             <p class="text-justify">
-              To advance my expertise in software and hardware technologies. Continue to extend existing and implement
+              I am working hard to advance my expertise in software and hardware technologies. Continue to extend existing and implement
               newer technologies to improve customer experience and improve profitability as a result.
             </p>
-              <p>
-              Be an asset and dependable resource to the company in many different areas of technology in an autonomous
+            <p>
+              My goal is to be an asset and dependable resource to the company in many different areas of technology in an autonomous
               or team-based environment.
-              </p>
-              <p>
-              Advance my education and skill sets in order to remain competitive on the behalf of a client’s needs with
+            </p>
+            <p>
+              I am looking for opportunity to advance my education and skill sets in order to remain competitive on the behalf of a client’s needs with
               business and market requirements and changes.
-              </p>
-              <p>
-              Find new ways to aid and supplement the business processes and goals for an employer, provided by
+            </p>
+            <p>
+              I am willing to find new ways to aid and supplement the business processes and goals for an employer, provided by
               independent research and development initiatives as well as volunteering for challenging roles and tasks.
-              </p>
-             <ol> 
+            </p>
+            <ol>
               <li>Specialties: Full Stack Development.</li>
               <li>Languages (HTML/CSS/Javascript/XML)</li>
               <li>Frameworks (Bootstrap, React, Angular, others)</li>
@@ -78,14 +75,13 @@
     </div>
     <!--empty div with a height of 100px so that the browser will scroll all of my content under the sticky footer-->
     <div class="content-scroll"></div>
-
-
-
   </main>
+  <!--Bonus: sticky footer uses bootstrap classes to alwyas be fixed at the bottom -->
   <footer class="col-md-12 footer-bottom fixed-bottom footer-height bg-light pt-2 pb-2 mt-5">
+    <!--div to hold social media image links-->
     <div class="text-center">
-      <a class="Header-link " href=" https://github.com/JodyBrzo" data-hotkey="g d" aria-label="github Jody Brzovski"
-        data-ga-click="Header, go to dashboard, icon:logo">
+      <a class="Header-link " href=" https://github.com/JodyBrzo" target="_blank" data-hotkey="g d"
+        aria-label="github Jody Brzovski" data-ga-click="Header, go to dashboard, icon:logo">
         <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32"
           aria-hidden="true">
           <path fill-rule="evenodd"
@@ -93,7 +89,8 @@
           </path>
         </svg>
       </a>
-      <a href="https://www.linkedin.com/in/jody-brzovski-177844b3"  aria-label="linkedin Jody Brzovski"  id="ember13" class="ember-view" >
+      <a href="https://www.linkedin.com/in/jody-brzovski-177844b3" target="_blank" aria-label="linkedin Jody Brzovski"
+        id="ember13" class="ember-view">
         <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" class="global-nav__logo">
           <path
             d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z"
@@ -101,24 +98,16 @@
           </path>
         </svg>
       </a>
-      <a href="https://www.linkedin.com/in/jody-brzovski-177844b3">
-      <img class="footer-indeed" src="./assets/images/indeed.png" alt="indeed.com Jody Brzovski">
-    </a>
+      <a href="https://my.indeed.com/p/e85lyhv" target="_blank">
+        <img class="footer-indeed" src="./assets/images/indeed.png" alt="indeed.com Jody Brzovski">
+      </a>
     </div>
-    <div class="text-center">
-      &copy Copyright 2020 - Jody Brzovski
-    </div>
-
-
+    <div class="text-center">&#169; Copyright 2020 - Jody Brzovski</div>
   </footer>
-
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>
