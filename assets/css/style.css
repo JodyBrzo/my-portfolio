@@ -59,11 +59,21 @@ ol{
 }
 /*-----end contact.html Page Styles-----*/
 
+/*-----start portfolio.html Page Styles-----*/
+.row-content-portfolio img{
+    width: 20em;
+    padding-bottom: 15px;
 
+}
 
 @Media screen and (max-width: 480px){
     .row-main{
-        margin: 0 2px !important;
+        margin: 0  !important;
+    }
+    
+    .container-fluid{
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
 }
