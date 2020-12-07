@@ -2,9 +2,10 @@
 My portfolio website: A showcase of sample projects
 
 # Mock-up
-Follow this link for a screenshot of my site - ![alt text](assets/images/screenshot.png)
-[Jody Brzovski Portfolio](https://jodybrzo.github.io/my-portfolio/index.html)
+![alt text](assets/images/screenshot.png)
 
+# Link to live site
+[Jody Brzovski Portfolio](https://jodybrzo.github.io/my-portfolio/index.html)
 
 ## Why I made this site
 I created this portfolio website to showcase my sample projects and skillset.  I also made this site to show my skills with the bootstrap grid system to create a responsive website.
