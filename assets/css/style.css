@@ -11,11 +11,9 @@ body{
     /*margin: 80px 0 0 30px;*/
 }
 
-/*#index-container{
-    background-color: lightgray;
-}*/
 
-#index-h1{
+
+.index-h1{
     color: white;
     padding: 10px 0px;
 }
@@ -32,6 +30,23 @@ body{
     text-align: justify; 
 
     
+}
+ol{
+    display: block;
+    list-style-type: inherit;
+}
+
+.content-scroll{
+    height: 100px;
+}
+
+.footer-height{
+    
+    border-top: 5px solid #5c5b5b;
+}
+
+.footer-indeed{
+    height: 30px;
 }
 
 @Media screen and (max-width: 480px){
