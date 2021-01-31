@@ -30,6 +30,15 @@ body{
     height: 30px;
 }
 
+/*sizing the resume download logo on the footer*/
+.footer-resume{
+    height: 40px;
+}
+
+.resume{
+    height: 40px;
+}
+
 /*-----start index.html Page Styles-----*/
 
 /*sizinig portfolio pic, floaring to the left so the text wraps on the left 
