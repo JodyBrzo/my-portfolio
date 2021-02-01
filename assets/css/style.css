@@ -1,11 +1,11 @@
 /*set background color for the enitre page*/
 body{
-    background-color: #eadcb0;
+    background-color: #f4f4f4;
 }
 
 /*set background color for the main section container*/
 .col-main{
-    background-color: lightgray;
+    background-color: #eadcb0;
 }
 
 /*set h1 text color and add padding to the top and bottom of text to push the column border down a bit*/
