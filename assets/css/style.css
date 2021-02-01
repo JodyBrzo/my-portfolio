@@ -78,6 +78,20 @@ ol{
 
 /*-----start portfolio.html Page Styles-----*/
 
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+h5{
+    font-weight: 600;
+}
+
 /*adds space to the bottom of the images*/
 .row-content-portfolio img{
        padding-bottom: 15px;
