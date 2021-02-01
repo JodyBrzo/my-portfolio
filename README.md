@@ -2,8 +2,7 @@
 My portfolio website: A showcase of sample projects
 
 # Technologies Used
--HTML 88.4%
--CSS 11.6%
+HTML 88.4%  CSS 11.6%
 
 # Mock-up
 ![alt text](assets/images/screenshot.png)
