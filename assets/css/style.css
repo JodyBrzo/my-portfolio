@@ -57,7 +57,7 @@ and margin-right adds a little space between the image and the text*/
 text-justify wraps the text around the image*/
 .row-content{
     padding-top: 10px;
-    text-align: justify;  
+    text-align: left;  
 }
 
 /*adds bullets to the line items at the bottom of the paragraph*/
@@ -89,15 +89,21 @@ ol{
     align-content: stretch;
 }
 
+.card-img-top{
+    padding: 0px;
+    object-fit: fill;
+    border-bottom: 2px solid #eee;
+}
+
 h5{
     font-weight: 600;
 }
 
 /*adds space to the bottom of the images*/
-.row-content-portfolio img{
+/* .row-content-portfolio img{
        padding-bottom: 15px;
 
-}
+} */
 
 /*linked image was showing a blue line behing the image on hover abd click
 this eliminated that*/
