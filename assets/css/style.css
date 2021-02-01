@@ -1,12 +1,16 @@
 /*set background color for the enitre page*/
 body{
     background-color: #f4f4f4;
+    font-family: Century Gothic, sans-serif;
+    font-size: 18px;
 }
 
 /*set background color for the main section container*/
 .col-main{
-    background-color: #7fc6e2;
+    /* background-color: #7fc6e2; */
+    background-color: #98d1e2;
 }
+
 
 /*set h1 text color and add padding to the top and bottom of text to push the column border down a bit*/
 .index-h1{
@@ -88,8 +92,8 @@ this eliminated that*/
 
 /*centeres the images when 2 up*/
 .row-content-portfolio section{
-    text-align: justify;
-    text-align-last: justify;
+    /* text-align: justify;
+    text-align-last: justify; */
 }
 
 /*makes sure the section holding the images never grows to more than 3 images wide*/
