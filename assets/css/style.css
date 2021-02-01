@@ -1,7 +1,7 @@
 /*set background color for the enitre page*/
 body{
     background-color: #f4f4f4;
-    font-family: Century Gothic, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
@@ -88,6 +88,7 @@ ol{
     flex-direction: column;
     align-content: stretch;
 }
+
 h5{
     font-weight: 600;
 }
